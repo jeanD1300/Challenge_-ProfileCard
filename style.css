@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  overflow: hidden;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ 
+}
+.image1,
+.image2 {
+  position: absolute;
+  z-index: -1;
+}
+.image1 {
+  bottom: 30%;
+  right: 60%;
+}
+.image2 {
+  top: 50%;
+  left: 50%;
+}
+.profileCard {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 380px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileInfo img {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  bottom: 350px;
+  left: 710px;
+  border: 5px solid white;
+}
+.profileBg {
+  height: 100%;
+}
+.profileInfo div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.profileInfo h2 {
+  font-size: 18px;
+}
+.profileInfo .age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-left: 10px;
+}
+.profileInfo {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+.follower {
+  display: flex;
+  border-top: 1px solid lightgray;
+  width: 330px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
+.stats {
+  padding: 0px 10px;
+}
+.stats h1 {
+  font-size: 18px;
+}
+.stats p {
+  padding-top: 5px;
+  font-size: 12px;
+}
