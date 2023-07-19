@@ -7,6 +7,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Overview
 
+![](/images/desktop-preview.jpg)
+
 ### The challenge
 
 - Build out the project to the designs provided
